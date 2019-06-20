@@ -14,7 +14,7 @@ if __name__ == "__main__" :
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
     
-    dataframe = source.load_data_from_csv('/home/andrey/Documentos/Estudos/Projeto_Pratico_Spark/2019-04-gasolina-etanol.csv', '\\t', True)
+    dataframe = source.load_data_from_csv('/home/andrey/Documentos/Estudos/pyspark-application/2019-04-gasolina-etanol.csv', '\\t', True)
     #dataframe = source.load_data_from_hive('adhoc.gasolina_etanol')
 
     # Renomeando colunas do dataframe
