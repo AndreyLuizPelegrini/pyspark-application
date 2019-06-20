@@ -1,0 +1,5 @@
+1 - Qual o estado que tem mais registros na planilha?
+2 - Qual o estado tem o maior valor de revenda?
+3 - Qual municipio tem o maior valor de venda em cada estado?
+4 - Qual municipio tem o maior valor de venda em todo o pais em uma determinada data?
+5 - Qual a media de diferenças entre valor de venda e valor de compra para uma determinada data?
