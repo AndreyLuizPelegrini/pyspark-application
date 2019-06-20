@@ -24,7 +24,7 @@ if __name__ == "__main__" :
     for column in ['valor_venda', 'valor_compra']:
         dataframe = dataframe.withColumn(column, when((trim(dataframe[column]) == '') | (dataframe[column].isNull()), 
                                                         lit('0').cast('double'))
-                                                        .otherwise(regexp_replace(dataframe[column], ',', '.').cast('double')))
+                                                 .otherwise(regexp_replace(dataframe[column], ',', '.').cast('double')))
 
     dataframe.persist()
 
